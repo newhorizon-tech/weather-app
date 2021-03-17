@@ -1,6 +1,19 @@
 $bright-pink : #e9062f;
+$light-orange : #fb853b;
 
 
 body{
+  background-color: $light-orange;
+}
+
+button {
+  color: white;
   background-color: $bright-pink;
+  border: none;
+  padding: 8px;
+  margin: 5px;
+}
+
+input {
+  padding: 8px;
 }
