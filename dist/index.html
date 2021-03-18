@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script type="text/javascript" src = "main.js" defer>  </script>
+  <script type="text/javascript" src="main.js" defer> </script>
   <title>Weather App</title>
 </head>
+
 <body>
 
   <input type="text" placeholder="City" id="city-field">
   <button type="button" id="city-btn">Get Weather</button>
-
+  <section id="display">
+    <div class="card">
+      <h1 id="city">City</h1>
+      <p id="temp">25 C</p>
+      <p id="min-max">20C/30C</p>
+      <p id="desc">Clear Sky</p>
+    </div>
+  </section>
 </body>
+
 </html>

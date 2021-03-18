@@ -4,7 +4,11 @@ const getData = async (url) => {
 }
 
 const showWeather = (data) => {
-  console.log(data)
+  console.log(data.main)
+  console.log(data.weather[0])
+  const icon = document.createElement("img")
+  icon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+  console.log(icon.src)
 }
 
 
