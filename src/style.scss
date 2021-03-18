@@ -19,12 +19,13 @@ input {
 }
 
 .card {
-  // display: none;
+  display: none;
+  background-color: $bright-pink;
   margin: 10% auto;
   width: 250px;
   height: 300px;
   padding: 10px 15px;
-  color: black;
+  color: white;
   font-size: 100%;
   line-height: 18px;
   font-weight: bold;
@@ -34,4 +35,8 @@ input {
   transition: all .15s ease-out;
   box-shadow: 0px 5px 5px rgba(0,0,0,.3);
   overflow: hidden;
+}
+
+#desc {
+  text-transform: capitalize;
 }
