@@ -1,7 +1,3 @@
-const isEmpty = (data) => {
-  return (data.length < 1 || data == null)
-}
+const isEmpty = (data) => (data.length < 1 || data == null);
 
-export {
-  isEmpty
-}
+export default isEmpty;
