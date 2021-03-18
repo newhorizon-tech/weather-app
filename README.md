@@ -60,7 +60,7 @@ If you want to modify and compile the project
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/newhorizon-tech/minimalist-restaurant-page/issues).
+Feel free to check the [issues page](https://github.com/newhorizon-tech/weather-app/issues).
 
 ## Show your support
 
