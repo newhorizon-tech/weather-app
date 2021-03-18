@@ -1,10 +1,11 @@
 $bright-pink : rgba(233, 6, 47, 1);
 $light-orange : rgba(251, 133, 59, 1);
 $translucent-gray : rgb(73, 73, 73, 0.8);
+$purplish: rgba(103, 58, 183, 1);
 
 body {
   margin: 0;
-  background-color: rgba(103, 58, 183, 1);
+  background-color: $purplish;
   background-size: cover;
 }
 
@@ -14,18 +15,35 @@ body {
 
 button {
   color: white;
+  border: none;
+}
+
+#city-btn {
   background-color: $bright-pink;
   border: none;
   padding: 8px;
   margin: 5px;
 }
 
+#toggle-btn {
+  box-shadow: 0 2px #ab3c3c;
+  padding: 3px;
+  color: black;
+}
+
 input {
   padding: 8px;
 }
 
+#icon {
+  width: 50px;
+  height: 50px;
+}
+
 .card {
   display: none;
+  flex-direction: column;
+  align-items: center;
   background: $bright-pink;
   margin: 10% auto;
   width: 250px;
