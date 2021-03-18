@@ -1,4 +1,5 @@
 import {kToC, kToF} from './units'
+import {getBackground} from './background'
 
 const getData = async (url) => {
   const response = await fetch(url);
