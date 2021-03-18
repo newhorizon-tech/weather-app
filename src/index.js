@@ -12,7 +12,5 @@ mainBtn.addEventListener('click', () => {
   mainField.value = ""
   if (!isEmpty(city)) {
     getWeather(city, keys.weather)
-  } else {
-    console.log("Invalid Input")
-  }
+  } 
 })

@@ -7,12 +7,10 @@ const getData = async (url) => {
 }
 
 const showWeather = (data) => {
-  console.log(data.main)
-  console.log(data.weather[0])
+  console.log({data})
 
   const mainCard = document.querySelector('.card');
-  mainCard.style.opacity = 0%
-  mainCard.style.display = "block"
+  mainCard.style.display = "none"
   mainCard.textContent = ""
 
   const temp = document.createElement('p')
@@ -21,7 +19,7 @@ const showWeather = (data) => {
 
   const desc = document.createElement('p')
   desc.setAttribute("id","desc")
-  desc.textContent = data.weather[0].description
+  desc.textContent = data.weather[0].main
 
   getBackground(data.weather[0].description)
 
@@ -30,8 +28,7 @@ const showWeather = (data) => {
 
 
   mainCard.append(temp,desc, icon)
-  mainCard.style.opacity = 60%
-
+  mainCard.style.display = "block"
 }
 
 
