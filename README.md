@@ -31,14 +31,14 @@ This is a mini-project that :
 
 ## API Key and Webpack compilation
 
-If you want to modify and compile the project then
+If you want to modify and compile the project
 
 - Create an account on OpenWeatherMap (https://openweathermap.org/)
 - Create an API key (https://openweathermap.org/api)
 - Navigate to the root directory of the Weather App
-- Open ```env.js``` file and replace <API KEY> with the API key you create
+- Open ```env.js``` file and replace <API KEY> with the API key you created previously
 - Run ```npm install``` to install dependencies
-- Run  ```npm build``` to compile/bundle the code or run ```npm start``` to start the server
+- Run  ```npm run build``` to compile/bundle the code or run ```npm run start``` to start the server
 
 ## Authors
 
