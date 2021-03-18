@@ -40,7 +40,7 @@ const showWeather = (data) => {
 
   const icon = document.createElement('img');
   icon.setAttribute('id', 'icon');
-  icon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+  icon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
 
   const toggleBtn = document.createElement('button');
   toggleBtn.textContent = 'Toggle unit (C/F)';
@@ -61,7 +61,7 @@ const showWeather = (data) => {
 };
 
 const getWeather = async (city, id) => {
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${id}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${id}`;
   const result = await getData(url);
 
   showWeather(result);
