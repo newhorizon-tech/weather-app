@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgba(103, 58, 183, 1);
+  background-color: rgb(70, 70, 70);
 }
 
 #input-section {
@@ -13,7 +13,7 @@ button {
 }
 
 #city-btn {
-  background-color: rgba(233, 6, 47, 1);
+  background-color: rgb(23, 23, 23);
   padding: 8px;
   margin: 5px;
 }
@@ -34,9 +34,10 @@ input {
 
 .card {
   display: none;
+  opacity: 78%;
   flex-direction: column;
   align-items: center;
-  background: rgba(233, 6, 47, 1);
+  background: rgb(23, 23, 23);
   margin: 10% auto;
   width: 250px;
   height: 300px;

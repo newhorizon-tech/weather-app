@@ -1,7 +1,11 @@
 import {
+  countryCodeEmoji,
+} from 'country-code-emoji';
+import {
   kToC,
   kToF,
 } from './units';
+
 import getBackground from './background';
 
 const getData = async (url) => {
@@ -10,6 +14,9 @@ const getData = async (url) => {
 };
 
 const showWeather = (data) => {
+  console.log({
+    data,
+  });
   const mainCard = document.querySelector('.card');
   mainCard.style.display = 'none';
   mainCard.textContent = '';
@@ -17,6 +24,13 @@ const showWeather = (data) => {
   const city = document.createElement('h1');
   city.setAttribute('id', 'city');
   city.textContent = data.name;
+
+  if (data.sys.country !== undefined) {
+    const country = document.createElement('span');
+    country.setAttribute('id', 'country');
+    country.textContent = ` ${countryCodeEmoji(data.sys.country)}`;
+    city.appendChild(country);
+  }
 
   const temp = document.createElement('p');
   temp.setAttribute('id', 'temp');
