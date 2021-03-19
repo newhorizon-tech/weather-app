@@ -1,4 +1,4 @@
-import './style.scss';
+import './style.css';
 
 import keys from '../env';
 import getWeather from './weather';
