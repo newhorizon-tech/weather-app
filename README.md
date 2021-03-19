@@ -11,7 +11,7 @@ This is a mini-project that :
 
 ### Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/newhorizon-tech/weather-app/85ced2620a683da0c84860b1ddf3baa618cd17fa/dist/index.html)
+[Live Demo Link](https://rawcdn.githack.com/newhorizon-tech/weather-app/b986f7952c5e08c1473a3972a49107cb21dbe046/dist/index.html)
 
 ## Built With
 
