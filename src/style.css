@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: rgba(103, 58, 183, 1);
+}
+
+#input-section {
+  margin: 2%;
+}
+
+button {
+  color: white;
+  border: none;
+}
+
+#city-btn {
+  background-color: rgba(233, 6, 47, 1);
+  padding: 8px;
+  margin: 5px;
+}
+
+#toggle-btn {
+  padding: 3px;
+  color: black;
+}
+
+input {
+  padding: 8px;
+}
+
+#icon {
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(233, 6, 47, 1);
+  margin: 10% auto;
+  width: 250px;
+  height: 300px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 100%;
+  line-height: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.15s ease-out;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+#desc {
+  text-transform: capitalize;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Displays Weather",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newhorizon-tech/weather-app.git"
+  },
+  "author": "Alaukik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newhorizon-tech/weather-app/issues"
+  },
+  "homepage": "https://github.com/newhorizon-tech/weather-app#readme",
+  "devDependencies": {
+    "css-loader": "^5.1.3",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
